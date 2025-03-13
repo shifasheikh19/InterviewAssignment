@@ -59,6 +59,27 @@ spring.datasource.url=jdbc:mysql://localhost:3306/blog_db
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 
+application-example.properties
+
+
+# Database Configuration  
+spring.datasource.url=jdbc:mysql://localhost:3306/blog_db  
+spring.datasource.username=root  
+spring.datasource.password=yourpassword  
+
+# JPA Properties  
+spring.jpa.hibernate.ddl-auto=update  
+spring.jpa.show-sql=true  
+spring.jpa.database-platform=org.hibernate.dialect.MySQL8Dialect  
+
+# OpenAI API Configuration (if used)  
+openai.api.key=your-api-key  
+
+# Server Configuration  
+server.port=8080  
+
+
+
 
 
 **Create the database:**
