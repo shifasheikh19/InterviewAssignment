@@ -1,7 +1,7 @@
 # InterviewAssignment
 
 
-****Blog API (Spring Boot + MySQL + OpenAI)****
+# ****Blog API (Spring Boot + MySQL + OpenAI)****
 
 
 
@@ -9,7 +9,7 @@ A simple Spring Boot REST API for managing blogs with CRUD operations and AI-pow
 
 
 
-**Features**
+# **Features**
 
 
 CRUD operations – Create, Read, Update, Delete Blogs
@@ -23,7 +23,7 @@ Dockerized – Ready for deployment
 Hosted on AWS EC2 – Scalable & secure
 
 
-**Prerequisites**
+# **Prerequisites**
 
 Ensure you have installed:
 
@@ -43,7 +43,7 @@ Docker & Docker Compose
 Postman (for API testing)
 
 
-**Clone Repository**
+# Clone Repository
 
 git clone https://github.com/your-username/blog-api.git
 cd blog-api
