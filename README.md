@@ -19,6 +19,32 @@ Ensure you have installed:
 - **MySQL**
 - **Docker & Docker Compose**
 - **Postman** (for API testing)
+Clone Repository  
+```sh
+git clone https://github.com/your-username/blog-api.git
+cd blog-api
+3️⃣ Configure MySQL Database
+Modify application.properties:
+
+ini
+Copy
+Edit
+spring.datasource.url=jdbc:mysql://localhost:3306/blog_db
+spring.datasource.username=root
+spring.datasource.password=yourpassword
+Create the database:
+
+sql
+Copy
+Edit
+CREATE DATABASE blog_db;
+
+4️⃣ Run Locally
+sh
+Copy
+Edit
+mvn clean install
+mvn spring-boot:run
 
 
 Method       Endpoint	               Description	           Body (JSON)
