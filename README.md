@@ -130,48 +130,52 @@ OpenAI API – AI-powered summarization
 
 
 ☁️ Deploying on AWS EC2
+
 1️⃣ Launch an EC2 Instance
+
 Use Ubuntu 22.04 (Free-tier)
+
+
 Configure Security Group (Allow 8080, 3306, and 22 for SSH)
+
+
+
+
 2️⃣ Install Docker on EC2
-sh
-Copy
-Edit
+
 sudo apt update
 sudo apt install -y docker.io
 sudo systemctl start docker
 sudo systemctl enable docker
+
+
 3️⃣ Transfer & Run Docker Image on EC2
 Option 1: Using Docker Hub
 
-sh
-Copy
-Edit
+
+
 docker login
 docker tag blog-app your-dockerhub-username/blog-app
 docker push your-dockerhub-username/blog-app
 On EC2:
 
-sh
-Copy
-Edit
+
 docker pull your-dockerhub-username/blog-app
 docker run -d -p 8080:8080 your-dockerhub-username/blog-app
 Option 2: Using SCP
 On Local:
 
-sh
-Copy
-Edit
+
 docker save -o blog-app.tar blog-app
 scp -i your-key.pem blog-app.tar ubuntu@your-ec2-ip:/home/ubuntu/
 On EC2:
 
-sh
-Copy
-Edit
+
 docker load -i blog-app.tar
 docker run -d -p 8080:8080 blog-app
+
+
+
 4️⃣ Access the Application
 Open http://your-ec2-public-ip:8080/api/blogs in your browser or Postman.
 
