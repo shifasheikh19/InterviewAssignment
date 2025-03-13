@@ -20,9 +20,10 @@ Ensure you have installed:
 - **Docker & Docker Compose**
 - **Postman** (for API testing)
 
-- Method	  Endpoint	             Description	        Body (JSON)
 
-- 
+Method       Endpoint	               Description	           Body (JSON)
+
+  
 GET	       /api/blogs      	       Get all blogs	        None
 
 
