@@ -13,7 +13,7 @@ Database – MySQL Integration
 Dockerized – Ready for deployment
 Hosted on AWS EC2 – Scalable & secure
 
-1️⃣ Prerequisites
+**1️ Prerequisites**
 Ensure you have installed:
 
 Java 17+
@@ -21,25 +21,30 @@ Spring Boot
 MySQL
 Docker & Docker Compose
 Postman (for API testing)
-Clone Repository
 
+
+**Clone Repository**
 git clone https://github.com/your-username/blog-api.git
 cd blog-api
 
 
-3️⃣ Configure MySQL Database
+
+
+**Configure MySQL Database**
 Modify application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/blog_db
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 
-Create the database:
 
+
+**Create the database:**
 CREATE DATABASE blog_db;
 
-4️⃣ Run Locally
 
+
+**Run Locally**
 mvn clean install
 mvn spring-boot:run
 
