@@ -1,5 +1,9 @@
 **InterviewAssignment**
+
+
 ****Blog API (Spring Boot + MySQL + OpenAI)****
+
+
 A simple Spring Boot REST API for managing blogs with CRUD operations and AI-powered summarization.
 
 Features
