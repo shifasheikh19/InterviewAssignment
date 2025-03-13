@@ -4,18 +4,26 @@
 ****Blog API (Spring Boot + MySQL + OpenAI)****
 
 
+
 A simple Spring Boot REST API for managing blogs with CRUD operations and AI-powered summarization.
+
+
 
 Features
 CRUD operations – Create, Read, Update, Delete Blogs
+
 AI-powered summarization – Uses OpenAI API
+
 Database – MySQL Integration
+
 Dockerized – Ready for deployment
+
 Hosted on AWS EC2 – Scalable & secure
 
-**1️ Prerequisites**
-Ensure you have installed:
 
+**Prerequisites**
+
+Ensure you have installed:
 Java 17+
 Spring Boot
 MySQL
@@ -24,6 +32,7 @@ Postman (for API testing)
 
 
 **Clone Repository**
+
 git clone https://github.com/your-username/blog-api.git
 cd blog-api
 
@@ -31,6 +40,7 @@ cd blog-api
 
 
 **Configure MySQL Database**
+
 Modify application.properties:
 
 spring.datasource.url=jdbc:mysql://localhost:3306/blog_db
@@ -40,11 +50,13 @@ spring.datasource.password=yourpassword
 
 
 **Create the database:**
+
 CREATE DATABASE blog_db;
 
 
 
 **Run Locally**
+
 mvn clean install
 mvn spring-boot:run
 
