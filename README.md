@@ -55,8 +55,7 @@ cd blog-api
 
 
 
-add-application-example.properties
-
+**add-application-example.properties**
 
 # Database Configuration  
 spring.datasource.url=jdbc:mysql://localhost:3306/blog_db  
