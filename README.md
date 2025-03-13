@@ -26,10 +26,20 @@ Hosted on AWS EC2 – Scalable & secure
 **Prerequisites**
 
 Ensure you have installed:
+
+
 Java 17+
+
+
 Spring Boot
+
+
 MySQL
+
+
 Docker & Docker Compose
+
+
 Postman (for API testing)
 
 
@@ -85,6 +95,14 @@ POST	     /api/blogs/summarize	   Summarize content	   { "content": "Long text t
 
 
 Spring Boot – Backend API
+
+
 MySQL – Database
+
+
 OpenAI API – AI-powered summarization
+
+
 Docker & Docker Compose – Containerization
+
+
