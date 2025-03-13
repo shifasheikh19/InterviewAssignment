@@ -126,10 +126,10 @@ MySQL – Database
 OpenAI API – AI-powered summarization
 
 
-# Docker & Docker Compose – Containerization
 
 
-☁️ Deploying on AWS EC2
+
+# ☁️ Deploying on AWS EC2
 
 1️⃣ Launch an EC2 Instance
 
