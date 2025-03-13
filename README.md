@@ -70,7 +70,14 @@ CREATE DATABASE blog_db;
 **Run Locally**
 
 mvn clean install
+
+
 mvn spring-boot:run
+
+
+
+
+
 
 
 
