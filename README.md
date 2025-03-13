@@ -46,20 +46,16 @@ Postman (for API testing)
 # Clone Repository
 
 git clone https://github.com/your-username/blog-api.git
+
+
 cd blog-api
 
 
 
 
-**Configure MySQL Database**
 
-Modify application.properties:
 
-spring.datasource.url=jdbc:mysql://localhost:3306/blog_db
-spring.datasource.username=root
-spring.datasource.password=yourpassword
-
-application-example.properties
+add-application-example.properties
 
 
 # Database Configuration  
