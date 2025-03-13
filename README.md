@@ -9,7 +9,9 @@ A simple Spring Boot REST API for managing blogs with CRUD operations and AI-pow
 
 
 
-Features
+**Features**
+
+
 CRUD operations – Create, Read, Update, Delete Blogs
 
 AI-powered summarization – Uses OpenAI API
@@ -77,7 +79,11 @@ DELETE	   /api/blogs/{id}	       Delete a blog	        None
 
 POST	     /api/blogs/summarize	   Summarize content	   { "content": "Long text to summarize" }
 
-Technologies Used
+
+
+**Technologies Used**
+
+
 Spring Boot – Backend API
 MySQL – Database
 OpenAI API – AI-powered summarization
