@@ -98,7 +98,7 @@ mvn spring-boot:run
 
 
 
-**Method       Endpoint	               Description	           Body (JSON)**
+# **Method       Endpoint	               Description	           Body (JSON)**
 
 GET	       /api/blogs      	       Get all blogs	        None
 
