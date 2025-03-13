@@ -77,13 +77,13 @@ server.port=8080
 
 
 
-**Create the database:**
+# **Create the database:**
 
 CREATE DATABASE blog_db;
 
 
 
-**Run Locally**
+# **Run Locally**
 
 mvn clean install
 
